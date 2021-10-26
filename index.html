@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <!-- <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="logo.PNG" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><i class="fa fa-search search"></i></button>
+        </div>
+        <div class="user-options">
+            <img src="video.PNG" class="icon" alt="">
+            <img src="grid.PNG" class="icon" alt="">
+            <img src="bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="./profilepic.jpg" alt="">
+            </div>
+        </div>
+    </nav> -->
+
+    <div class="navbar">
+        <div class="left">
+            <i class="fa fa-bars"></i>
+            <div class="logo">
+                <img src="./logo.PNG" alt="logo">
+            </div>
+        </div>
+        <div class="center">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><i class="fa fa-search search"></i></button>
+        </div>
+        <div class="right">
+                <i class="fa fa-video-camera icon"></i>
+                <i class="fa fa-th icon"></i>
+                <i class="fa fa-bell-o icon"></i>
+                <img src="./profilepic.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="youtube-content">
+        <div class="sidebar">
+                <a href="#" class="links active"><img src="home.PNG" alt="">home</a>
+                <a href="#" class="links"><img src="explore.PNG" alt="">explore</a>
+                <a href="#" class="links"><img src="subscription.PNG" alt="">subscription</a>
+                <hr class="seperator">
+                <a href="#" class="links"><img src="library.PNG" alt="">library</a>
+                <a href="#" class="links"><img src="history.PNG" alt="">history</a>
+                <a href="#" class="links"><img src="your-video.PNG" alt="">your video</a>
+                <a href="#" class="links"><img src="watch-later.PNG" alt="">watch leater</a>
+                <a href="#" class="links"><img src="liked video.PNG" alt="">like video</a>
+                <a href="#" class="links"><img src="show more.PNG" alt="">show more</a>
+        </div>
+        <div class="main-content">
+            <div class="channel-summary">
+                <div class="channel-image">
+                    <img src="amit.png" alt="">
+                </div>
+                <div class="channel-info">
+                    <div class="channel-name">
+                        <img src="./profilepic.jpg" alt="profile-image">
+                        <div class="channel-subscribers">
+                            <span class="name">Amit Bhadhana</span>
+                            <span class="subscribers">23.6M subscribers</span>
+                        </div>
+                    </div>
+                    <div class="subscriber-btn">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+                <div class="filters">
+                    <div class="filters-btn">
+                        <button class="filter-options active">Home</button>
+                        <button class="filter-options">video</button>
+                        <button class="filter-options">playlists</button>
+                        <button class="filter-options">community</button>
+                        <button class="filter-options">channel</button>
+                        <button class="filter-options">about</button>
+                        <i class="fa fa-search search"></i>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div> <hr>
+                <div class="video-container">
+                    <div class="heading">
+                        <h3>Popular uploads</h3>
+                        <div class="play-btn">
+                            <i class="fa fa-play"></i>
+                            <h3>play all</h3>
+                        </div>
+                    </div>
+                    <div class="all-popular-videos">
+                        <div class="popular-videos">
+                            <div class="popular-video-image">
+                                <a href="https://www.youtube.com/watch?v=BOgiLwQ7Es0"><img src="./popular1.webp" alt="popular"></a> 
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=BOgiLwQ7Es0">
+                            <div class="video-title">
+                                
+                                     <span class="video-name">Parichay - Amit Bhadhana</span>
+                                     <span class="video-view">86M views . 2 years ago</span>
+                               
+                            </div>
+                            </a>
+                        </div>
+                        <div class="popular-videos">
+                            <div class="popular-video-image">
+                                <a href="https://www.youtube.com/watch?v=ED0PSAElYio"><img src="./popular2.webp" alt="popular"></a>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=ED0PSAElYio">
+                            <div class="video-title">
+                                <span class="video-name">Type of people in bus - Amit Bhadhana</span>
+                                <span class="video-view">62M views . 3 years ago</span>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="popular-videos">
+                            <div class="popular-video-image">
+                                <a href="https://www.youtube.com/watch?v=EyPXz6hKa_s"><img src="./pop.webp" alt="popular"></a>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=EyPXz6hKa_s">
+                            <div class="video-title">
+                                <span class="video-name">School Ke Wo Din - Amit Bhadhana</span>
+                                <span class="video-view">62M views . 3 years ago</span>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="popular-videos">
+                            <div class="popular-video-image">
+                                <a href="https://www.youtube.com/watch?v=XgVrYVBs2fc"><img src="./popular4.webp" alt="popular"></a>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=XgVrYVBs2fc">
+                            <div class="video-title">
+                                <span class="video-name">Desi Vs Others - Amit Bhadhana</span>
+                                <span class="video-view">53M views . 3 years ago</span>
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div> <hr>
+                <div class="video-container">
+                    <div class="heading">
+                        <h3>uploads</h3>
+                        <div class="play-btn">
+                            <i class="fa fa-play"></i>
+                            <h3>play all</h3>
+                        </div>
+                    </div>
+                    <div class="all-popular-videos">
+                        <div class="popular-videos">
+                            <div class="popular-video-image">
+                               <a href="https://www.youtube.com/watch?v=-pl3sDMtaYE"> <img src="./upload1.webp" alt="popular"></a>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=-pl3sDMtaYE">
+                            <div class="video-title">
+                                <span class="video-name">Amit ki Versha - Amit Bhadhana</span>
+                                <span class="video-view">14M views . 1 months ago</span>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="popular-videos">
+                            <div class="popular-video-image">
+                               <a href="https://www.youtube.com/watch?v=byis7z3POVw"><img src="./upload2.webp" alt="popular"></a> 
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=byis7z3POVw">
+                                <div class="video-title">
+                                    <span class="video-name">Science Vs Commerce Vs Arts - Amit Bhadhana</span>
+                                    <span class="video-view">8.1M views . 2 months ago</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-videos">
+                            <div class="popular-video-image">
+                                <a href="https://www.youtube.com/watch?v=mHJ4qZIUUFk"><img src="./upload3.webp" alt="popular"></a>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=mHJ4qZIUUFk">
+                                <div class="video-title">
+                                    <span class="video-name">Father Saab - Amit Bhadhana</span>
+                                    <span class="video-view">32M views . 3 months ago</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="popular-videos">
+                            <div class="popular-video-image">
+                                <a href="https://www.youtube.com/watch?v=kQuvdyx3pIY"><img src="./upload4.webp" alt="popular"></a>
+                            </div>
+                           <a href="https://www.youtube.com/watch?v=kQuvdyx3pIY">
+                            <div class="video-title">
+                                <span class="video-name">College Farewell - Amit Bhadhana</span>
+                                <span class="video-view">10M views . 3 months ago</span>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div> <hr>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+            
+    
+        <!-- videos--> 
+        <!-- <div class="heading">
+            <h1>POPULAR UPLOADS</h1>
+        </div>
+    
+       <div class="video-container">
+            <div class="video">
+                <img src="img/profile-pic.png" class="thumbnail" alt="">
+                <div class="content">
+                    <img src="img/profile-pic.png" class="channel-icon" alt="">
+                    <div class="info">
+                        <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                        <p class="channel-name">modern web</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video">
+                <img src="img/profile-pic.png" class="thumbnail" alt="">
+                <div class="content">
+                    <img src="img/profile-pic.png" class="channel-icon" alt="">
+                    <div class="info">
+                        <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                        <p class="channel-name">modern web</p>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="video">
+                <img src="img/profile-pic.png" class="thumbnail" alt="">
+                <div class="content">
+                    <img src="img/profile-pic.png" class="channel-icon" alt="">
+                    <div class="info">
+                        <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                        <p class="channel-name">modern web</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video">
+                <img src="img/profile-pic.png" class="thumbnail" alt="">
+                <div class="content">
+                    <img src="img/profile-pic.png" class="channel-icon" alt="">
+                    <div class="info">
+                        <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                        <p class="channel-name">modern web</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video">
+                <img src="img/profile-pic.png" class="thumbnail" alt="">
+                <div class="content">
+                    <img src="img/profile-pic.png" class="channel-icon" alt="">
+                    <div class="info">
+                        <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                        <p class="channel-name">modern web</p>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
